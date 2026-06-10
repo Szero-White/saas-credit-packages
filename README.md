@@ -125,26 +125,6 @@ Người dùng mua gói
 
 Các bảng sẽ được tạo tự động bởi SQLAlchemy khi backend khởi động. Dữ liệu seed cũng được chèn tự động khi backend chạy lần đầu.
 
-## Phát triển cục bộ (không dùng Docker)
-
-Backend:
-
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
-
-Frontend:
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
 Tạo file `frontend/.env` nếu cần:
 
 ```txt
