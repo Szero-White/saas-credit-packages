@@ -124,9 +124,3 @@ Người dùng mua gói
 - user_credits
 
 Các bảng sẽ được tạo tự động bởi SQLAlchemy khi backend khởi động. Dữ liệu seed cũng được chèn tự động khi backend chạy lần đầu.
-
-Tạo file `frontend/.env` nếu cần:
-
-```txt
-VITE_API_BASE_URL=http://localhost:8000/api
-```
