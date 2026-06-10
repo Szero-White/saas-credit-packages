@@ -122,5 +122,3 @@ Người dùng mua gói
 - user_features
 - credit_logs
 - user_credits
-
-Các bảng sẽ được tạo tự động bởi SQLAlchemy khi backend khởi động. Dữ liệu seed cũng được chèn tự động khi backend chạy lần đầu.
